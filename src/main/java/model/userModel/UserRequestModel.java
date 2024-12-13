@@ -10,7 +10,7 @@ public class UserRequestModel {
     public String phone;
     public int userStatus;
 
-    public UserRequestModel(Long id, String username, String firstName, String lastName, String email, String password, String phone, int userStatus) {
+    public UserRequestModel(long id, String username, String firstName, String lastName, String email, String password, String phone, int userStatus) {
         this.id = id;
         this.username = username;
         this.firstName = firstName;
