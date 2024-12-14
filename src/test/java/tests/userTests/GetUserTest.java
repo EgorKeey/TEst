@@ -32,7 +32,7 @@ public class GetUserTest extends BaseTest {
     @Test(priority = 3)
     public void putChangeUser() {
         UserRequestModel userRequestModel = new UserRequestModel(
-                123,"DedToper","Ser","Mer","chillchell@gmail.com","aboba","88005553535",0);
+                123,"DedToper","Ser","Mer","chillchell2@gmail.com","aboba","88005553535",0);
         ResponseModel model = USER_API.putChangeUser("DedToper",userRequestModel);
         Assert.assertEquals(model.getCode(), "200");
     }
